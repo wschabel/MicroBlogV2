@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<h1>MicroBlog</h1>
+
+<p>
+    <a asp-page="/Create">Create New Post</a>
+</p>
+
+@foreach (var post in Model.Posts)
+{
+    <partial name="_PostCard" model="post" />
+}

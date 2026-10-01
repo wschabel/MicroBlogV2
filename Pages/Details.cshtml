@@ -1,0 +1,14 @@
+﻿@page
+@model MicroBlog.Pages.DetailsModel
+@{
+}
+
+<h1>@Model.Post!.Title</h1>
+
+<p>@Model.Post.Body</p>
+
+<p>
+    <small>Posted @Model.Post.CreatedUtc</small>
+</p>
+
+<a asp-page="/index">Back to Posts</a>

@@ -1,0 +1,26 @@
+# Visual Studio
+.vs/
+
+# Build output
+bin/
+obj/
+
+# User-specific Visual Studio files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Test results
+TestResults/
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Logs
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db

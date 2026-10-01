@@ -1,0 +1,15 @@
+﻿@model MicroBlog.Models.Post
+
+<div class="postcard">
+    <h2>@Model.Title</h2>
+    <p>@Model.Body</p>
+    <small>
+        Posted @Model.CreatedUtc
+    </small>
+
+    <br />
+
+    <a asp-page="/Details" asp-route-id="@Model.Id">
+        View Details
+    </a>
+</div>
